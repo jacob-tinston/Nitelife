@@ -51,9 +51,10 @@ li {
     list-style: none;
 }
 
-/* Header */
+/* Header and footer */
 
-header {
+header,
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,20 +63,12 @@ header {
 
 /* First Section */
 
-section {
+.main {
     width: 50%;
     height: auto;
     margin: 10% 25%;
     background-color: black;
     font-size: 1.5rem;
-}
-
-@media only screen and (max-width: 400px) {
-    section {
-        width: 60%;
-        height: auto;
-        margin: 10% 20%;
-    }
 }
 
 .dj {
@@ -109,4 +102,40 @@ button {
 .email:hover,
 .facebook:hover {
     background-color: black;
+}
+
+/* Info Section */
+
+.info {
+    margin-bottom: 2%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info > img {
+    margin: 5% auto 1% auto;
+}
+
+.info > p,
+.info > h2 {
+    margin: auto 20%;
+}
+
+/* Back to top */
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.top:hover {
+    color: limegreen;
+}
+
+.top:active {
+    color: white;
 }
