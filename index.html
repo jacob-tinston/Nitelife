@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Nitelife Homepage</title>
         <link href="style.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,25 +11,41 @@
     <body>
         <a name="top"></a>
         <nav>
-            <ul>
+            <button id="menu">Menu</button>
+            <ul class="items">
                 <li id="home-nav">Home</li>
             </ul>
-            <ul>
+            <ul class="items">
                 <li>About</li>
             </ul>
-            <ul>
+            <ul class="items">
                 <li>Contact</li>
             </ul>
-            <ul>
+            <ul class="items">
                 <li>Hire</li>
             </ul>
-            <ul>
+            <ul class="items">
                 <li>Photos</li>
             </ul>
-            <ul>
+            <ul class="items">
                 <li>Social Media</li>
             </ul>
         </nav>
+        <section class="mobile-nav">
+            <h3>Home</h3>
+            <h3>About</h3>
+            <h3>Contact</h3>
+            <h3>Hire</h3>
+            <h3>Photos</h3>
+            <aside>
+              <h3 id="last">Social Media</h3>
+              <ul>
+                  <li>Instagram</li>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+              </ul>
+            </aside>
+        </section>
         <header>
             <img src="nitelife-logo.png">
         </header>
