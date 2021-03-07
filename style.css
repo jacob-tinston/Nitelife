@@ -55,7 +55,7 @@ li {
     list-style: none;
 }
 
-.mobile-nav {
+#mobile-nav {
     display: none;
 }
 
