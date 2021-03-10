@@ -1,5 +1,6 @@
 # Nitelife
-> This is a project that was worked on in line with the Codecademy Full-Stack Engineer Course.
+> This is a project that was worked on in line with the Codecademy Full-Stack Engineer Course. </br>
+> Project: Club website
 
 ## Contents
 * [General info](#general-info)
